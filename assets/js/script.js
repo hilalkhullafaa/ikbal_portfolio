@@ -1,4 +1,16 @@
 /**
+ * PRELOADER
+ */
+const preloader = document.querySelector(".preloader");
+const circle = document.querySelector(".circle");
+
+window.addEventListener("load", () => {
+  preloader.classList.add("active");
+  circle.style.animation = "none";
+  document.body.classList.add("active");
+});
+
+/**
  * TOGGLE FOR BUTTON NAVBAR
  */
 const navbar = document.querySelector(".navbar");
@@ -26,4 +38,26 @@ navLinkBtn.forEach((i) => {
     openBtn.style.display = "inline";
     closeBtn.style.display = "none";
   });
+});
+
+/**
+ * PLAYING MUSIC
+ */
+const playPauseBtn = document.getElementById("playPauseBtn");
+const audio = document.getElementById("audio");
+const play = document.querySelector(".play");
+const pause = document.querySelector(".pause");
+let isPlaying = false;
+
+playPauseBtn.addEventListener("click", () => {
+  if (!isPlaying) {
+    audio.play();
+    play.style.display = "none";
+    pause.style.display = "block";
+  } else {
+    audio.pause();
+    play.style.display = "block";
+    pause.style.display = "none";
+  }
+  isPlaying = !isPlaying;
 });

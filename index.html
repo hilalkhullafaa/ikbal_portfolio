@@ -15,12 +15,21 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet" />
+
+    <!-- DATA AOS JS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div class="container">
+      <div class="preloader">
+        <div class="circle"></div>
+        <div class="text-preloader">Waiting</div>
+      </div>
       <!-- HEADER SECTION START-->
       <header class="header">
-        <h1 class="logo">Portfolio</h1>
+        <h1 class="logo" data-aos="fade-un" data-aos-duration="1400">
+          Portfolio
+        </h1>
 
         <ul class="navbar">
           <li><a href="#about" class="nav-link">About</a></li>
@@ -50,7 +59,11 @@
 
       <!-- HERO SECTION START -->
       <section class="hero">
-        <figure class="hero-banner">
+        <figure
+          class="hero-banner"
+          data-aos="fade-up "
+          data-aos-duration="1000"
+          data-aos-delay="200">
           <img
             src="assets/img/foto-header-ibuk.webp"
             alt="hero banner"
@@ -58,8 +71,18 @@
         </figure>
 
         <div class="hero-description">
-          <h1 class="fs-lg">Hi, I'm Ikbal</h1>
-          <p class="fs-sm">
+          <h1
+            class="fs-lg"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            data-aos-delay="400">
+            Hi, I'm Ikbal
+          </h1>
+          <p
+            class="fs-sm"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            data-aos-delay="600">
             Seseorang yang sedang meniti karir sebagai kapster dengan semangat
             dan keinginan kuat untuk terus belajar dan berkembang. Memiliki
             minat besar di dunia haircut dan grooming pria, serta berkomitmen
@@ -69,11 +92,17 @@
         </div>
 
         <div class="hero-other">
-          <span
+          <span data-aos="fade-up" data-aos-duration="1200"
             ><img src="assets/img/location-icon.svg" alt="location" />Cianjur,
             Jawa Barat</span
           >
-          <a href="https://wa.me/+6288211727101">Available for work</a>
+          <a
+            href="https://wa.me/+6288211727101"
+            data-aos="fade-in"
+            data-aos-duration="1200"
+            data-aos-delay="400"
+            >Available for work</a
+          >
         </div>
       </section>
       <!-- HERO SECTION END -->
@@ -83,7 +112,11 @@
         <h3 class="fs-md title">About me</h3>
 
         <div class="about-content">
-          <figure class="about-banner">
+          <figure
+            class="about-banner"
+            data-aos="fade-up "
+            data-aos-duration="1400"
+            data-aos-delay="400">
             <img
               src="assets/img/foto-about-ibuk.webp"
               alt="about img"
@@ -92,8 +125,18 @@
           </figure>
 
           <div class="about-description">
-            <h3 class="fs-md">Penasaran dengan saya?<br /></h3>
-            <p class="fs-sm">
+            <h3
+              class="fs-md"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="200">
+              Penasaran dengan saya?<br />
+            </h3>
+            <p
+              class="fs-sm"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="400">
               Saya memiliki passion besar di dunia kapster dan fashion hair.
               Bagi saya, rambut adalah bagian penting dari gaya dan kepercayaan
               diri seseorang. Saya senang menciptakan potongan yang tidak hanya
@@ -148,45 +191,177 @@
 
         <ul class="work-card">
           <li class="work-list">
-            <h2>Pixel Barbershop Cianjur</h2>
-            <p>2024 - 2025</p>
-            <h3>Kapster</h3>
+            <h2 data-aos="fade-in" data-aos-duration="1000">
+              Pixel Barbershop Cianjur
+            </h2>
+            <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">
+              2024 - 2025
+            </p>
+            <h3
+              data-aos="fade-in"
+              data-aos-duration="1000"
+              data-aos-delay="400">
+              Kapster
+            </h3>
             <ul>
-              <li>
+              <li data-aos="fade-up" data-aos-duration="1200">
                 - Menyiapkan peralatan cukur dan membersihkan setelah digunakan
               </li>
-              <li>
+              <li
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="400">
                 - Melayani setiap orang yang akan memangkas rambut dengan baik
               </li>
-              <li>- Menginput data hasil pemasukan harian secara sistematis</li>
+              <li
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="600">
+                - Menginput data hasil pemasukan harian secara sistematis
+              </li>
             </ul>
           </li>
 
           <li class="work-list">
-            <h2>PT.Mitsubishi Electrical Automotiv</h2>
-            <p>2021 - 2024</p>
-            <h3>Operator Forklit</h3>
+            <h2 data-aos="fade-in" data-aos-duration="1000">
+              PT.Mitsubishi Electrical Automotiv
+            </h2>
+            <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">
+              2021 - 2024
+            </p>
+            <h3
+              data-aos="fade-in"
+              data-aos-duration="1000"
+              data-aos-delay="400">
+              Operator Forklit
+            </h3>
             <ul>
-              <li>- Bongkar muatan barang ekspor</li>
-              <li>- Menyimpan barang tersebut pada rak yang ada digudang</li>
+              <li data-aos="fade-up" data-aos-duration="1200">
+                - Bongkar muatan barang ekspor
+              </li>
+              <li
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="200">
+                - Menyimpan barang tersebut pada rak yang ada digudang
+              </li>
             </ul>
           </li>
 
           <li class="work-list">
-            <h2>PT.Sansan Saudaratex</h2>
-            <p>2019 - 2020</p>
-            <h3>Operator Gudang</h3>
+            <h2 data-aos="fade-in" data-aos-duration="1000">
+              PT.Sansan Saudaratex
+            </h2>
+            <p data-aos="fade-in" data-aos-duration="1000" data-aos-delay="200">
+              2019 - 2020
+            </p>
+            <h3
+              data-aos="fade-in"
+              data-aos-duration="1000"
+              data-aos-delay="400">
+              Operator Gudang
+            </h3>
             <ul>
-              <li>- Menyiapkan bahan material</li>
-              <li>- Melakukan produksi dari material tersebut</li>
+              <li data-aos="fade-up" data-aos-duration="1200">
+                - Menyiapkan bahan material
+              </li>
+              <li
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="200">
+                - Melakukan produksi dari material tersebut
+              </li>
             </ul>
           </li>
         </ul>
       </section>
       <!-- WORK SECTION END -->
+
+      <!-- CONTACT SECTION START -->
+      <section class="contact" id="contact">
+        <h3 class="fs-md title">For Information</h3>
+
+        <ul class="social-item">
+          <li class="social-list">
+            <a href="https://wa.me/+6288211727101"
+              ><img
+                src="assets/img/whatsapp-icon.svg"
+                alt="whatsapp-icon" />+6288211727101</a
+            >
+          </li>
+
+          <li class="social-list">
+            <a
+              href="https://www.facebook.com/profile.php?id=100022743733048&locale=id_ID"
+              ><img src="assets/img/facebook-icon.svg" alt="facebook" />Mhmmd
+              Ikbal Agung Cahya</a
+            >
+          </li>
+
+          <li class="social-list">
+            <a href="https://www.instagram.com/mhmmdagungcahya"
+              ><img
+                src="assets/img/instagram-icon.svg"
+                alt="instagram" />@Mhmmdagungcahya
+            </a>
+          </li>
+
+          <li class="social-list">
+            <a href="https://www.tiktok.com"
+              ><img
+                src="assets/img/tiktok-icon.svg"
+                alt="tiktok-icon" />@Mhmmdagungcahya
+            </a>
+          </li>
+
+          <li class="social-list">
+            <a href="mailto:ikbal21@gmail.com"
+              ><img
+                src="assets/img/gmail-icon.svg"
+                alt="tiktok-icon" />ikbal21@gmail.com
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!-- CONTACT SECTION END -->
+
+      <!-- FOOTER SECTION START -->
+      <footer class="footer">
+        <h3 class="fs-sm">&copy;Created with ❤️ by HilKA 2025</h3>
+      </footer>
+      <!-- FOOTER SECTION END -->
+
+      <!-- SOUND SECTION START -->
+      <div class="player">
+        <button id="playPauseBtn" class="playPauseBtn">
+          <span class="play"
+            ><img
+              src="assets/img/play-icon.svg"
+              alt="play-icon"
+              class="play-icon"
+          /></span>
+
+          <span class="pause">
+            <img
+              src="assets/img/pause-icon.svg"
+              alt="pause-icon"
+              class="pause-icon" />
+          </span>
+        </button>
+        <audio id="audio" src="assets/sound/sound.mp3"></audio>
+      </div>
+      <!-- SOUND SECTION END -->
     </div>
 
     <!-- MY JAVASCRIPT -->
     <script src="assets/js/script.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        // once: true, // animasi hanya sekali
+      });
+    </script>
   </body>
 </html>
