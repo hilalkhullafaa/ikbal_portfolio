@@ -1,16 +1,4 @@
 /**
- * PRELOADER
- */
-const preloader = document.querySelector(".preloader");
-const circle = document.querySelector(".circle");
-
-window.addEventListener("load", () => {
-  preloader.classList.add("active");
-  circle.style.animation = "none";
-  document.body.classList.add("active");
-});
-
-/**
  * TOGGLE FOR BUTTON NAVBAR
  */
 const navbar = document.querySelector(".navbar");
